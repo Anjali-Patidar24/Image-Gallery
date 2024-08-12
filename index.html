@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🌠Image Gallery 🌠</h1>
+    <div class="full-img" id="fullImgBox">
+        <span class="nav prev" onclick="changeImage(-1)">&#10094;</span>
+       <img src="img1.jpg" id="fullImg">
+       <span class="nav next" onclick="changeImage(1)">&#10095;</span>
+       <span onclick="closeFullImg()">X</span>
+    </div>
+    <div class="img-gallery">
+        <img src="img1.jpg" alt="img-1"  onclick="openFullImg(this.src)">
+        <img src="img3.jpg" alt="img-2" onclick="openFullImg(this.src)">
+        <img src="img2.jpg" alt="img-3" onclick="openFullImg(this.src)">
+        <img src="img4.jpg"  alt="img-4"onclick="openFullImg(this.src)">
+        <img src="img5.jpg" alt="img-5"onclick="openFullImg(this.src)">
+        <img src="img6.jpg" alt="img-6" onclick="openFullImg(this.src)">
+        <img src="img7.jpg" alt="img-7" onclick="openFullImg(this.src)">
+        <img src="img8.jpg"alt="img-8" onclick="openFullImg(this.src)">
+        <img src="img9.jpg"alt="img-9" onclick="openFullImg(this.src)">
+    </div>
+    <script src="script.js"></script>   
+</body>
+</html>
+
+
+
+
+
